@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/JojoEyeCatches/static/css/main.9424168a.chunk.css",
+    "main.js": "/JojoEyeCatches/static/js/main.ab940694.chunk.js",
+    "main.js.map": "/JojoEyeCatches/static/js/main.ab940694.chunk.js.map",
+    "runtime-main.js": "/JojoEyeCatches/static/js/runtime-main.8ee230c8.js",
+    "runtime-main.js.map": "/JojoEyeCatches/static/js/runtime-main.8ee230c8.js.map",
+    "static/js/2.3e01aa45.chunk.js": "/JojoEyeCatches/static/js/2.3e01aa45.chunk.js",
+    "static/js/2.3e01aa45.chunk.js.map": "/JojoEyeCatches/static/js/2.3e01aa45.chunk.js.map",
+    "index.html": "/JojoEyeCatches/index.html",
+    "precache-manifest.1c6043cdf08c4e5e9b0e7eefc1acec30.js": "/JojoEyeCatches/precache-manifest.1c6043cdf08c4e5e9b0e7eefc1acec30.js",
+    "service-worker.js": "/JojoEyeCatches/service-worker.js",
+    "static/css/main.9424168a.chunk.css.map": "/JojoEyeCatches/static/css/main.9424168a.chunk.css.map",
+    "static/media/Josuke.png": "/JojoEyeCatches/static/media/Josuke.44ba4abe.png",
+    "static/media/SoftAndWet.png": "/JojoEyeCatches/static/media/SoftAndWet.6c5e51d8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ee230c8.js",
+    "static/js/2.3e01aa45.chunk.js",
+    "static/css/main.9424168a.chunk.css",
+    "static/js/main.ab940694.chunk.js"
+  ]
+}
