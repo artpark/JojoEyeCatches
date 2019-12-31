@@ -1,7 +1,9 @@
 import React from 'react'
 
-function App() {
-  return <h1>hi</h1>
+import SoftAndWetPage from './components/SoftAndWetPage/SoftAndWetPage'
+
+const App = () => {
+  return <div>{SoftAndWetPage()}</div>
 }
 
 export default App
