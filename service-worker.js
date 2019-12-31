@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/JojoEyeCatches/precache-manifest.4df84f1ea6281a28fe9e0e61c36038ac.js"
+  "/JojoEyeCatches/precache-manifest.adccba40d8519c2a2bedb06cfbcc863f.js"
 );
 
 self.addEventListener('message', (event) => {

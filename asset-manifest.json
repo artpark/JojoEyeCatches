@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/JojoEyeCatches/static/css/main.504e83a9.chunk.css",
-    "main.js": "/JojoEyeCatches/static/js/main.e60d4ace.chunk.js",
-    "main.js.map": "/JojoEyeCatches/static/js/main.e60d4ace.chunk.js.map",
+    "main.css": "/JojoEyeCatches/static/css/main.f4d3bf28.chunk.css",
+    "main.js": "/JojoEyeCatches/static/js/main.3c9dc927.chunk.js",
+    "main.js.map": "/JojoEyeCatches/static/js/main.3c9dc927.chunk.js.map",
     "runtime-main.js": "/JojoEyeCatches/static/js/runtime-main.8ee230c8.js",
     "runtime-main.js.map": "/JojoEyeCatches/static/js/runtime-main.8ee230c8.js.map",
     "static/js/2.3e01aa45.chunk.js": "/JojoEyeCatches/static/js/2.3e01aa45.chunk.js",
     "static/js/2.3e01aa45.chunk.js.map": "/JojoEyeCatches/static/js/2.3e01aa45.chunk.js.map",
     "index.html": "/JojoEyeCatches/index.html",
-    "precache-manifest.4df84f1ea6281a28fe9e0e61c36038ac.js": "/JojoEyeCatches/precache-manifest.4df84f1ea6281a28fe9e0e61c36038ac.js",
+    "precache-manifest.adccba40d8519c2a2bedb06cfbcc863f.js": "/JojoEyeCatches/precache-manifest.adccba40d8519c2a2bedb06cfbcc863f.js",
     "service-worker.js": "/JojoEyeCatches/service-worker.js",
-    "static/css/main.504e83a9.chunk.css.map": "/JojoEyeCatches/static/css/main.504e83a9.chunk.css.map",
+    "static/css/main.f4d3bf28.chunk.css.map": "/JojoEyeCatches/static/css/main.f4d3bf28.chunk.css.map",
     "static/media/Josuke.png": "/JojoEyeCatches/static/media/Josuke.8b27ec0b.png",
-    "static/media/index.scss": "/JojoEyeCatches/static/media/JosukeMask.03e96fcd.png",
-    "static/media/SoftAndWet.png": "/JojoEyeCatches/static/media/SoftAndWet.6c5e51d8.png"
+    "static/media/index.scss": "/JojoEyeCatches/static/media/SoftAndWet.6c5e51d8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8ee230c8.js",
     "static/js/2.3e01aa45.chunk.js",
-    "static/css/main.504e83a9.chunk.css",
-    "static/js/main.e60d4ace.chunk.js"
+    "static/css/main.f4d3bf28.chunk.css",
+    "static/js/main.3c9dc927.chunk.js"
   ]
 }
