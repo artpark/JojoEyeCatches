@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "778857b533d6f18eaf6bea7d1d64753a",
+    "revision": "890f225bb2a094b6f1418cc8e49d66cd",
     "url": "/JojoEyeCatches/index.html"
   },
   {
-    "revision": "cd77e335500d96c74c71",
-    "url": "/JojoEyeCatches/static/css/main.9424168a.chunk.css"
+    "revision": "973408705f1d5f167211",
+    "url": "/JojoEyeCatches/static/css/main.33eba3f0.chunk.css"
   },
   {
     "revision": "5084a02b60999a953eb2",
     "url": "/JojoEyeCatches/static/js/2.3e01aa45.chunk.js"
   },
   {
-    "revision": "cd77e335500d96c74c71",
-    "url": "/JojoEyeCatches/static/js/main.ab940694.chunk.js"
+    "revision": "973408705f1d5f167211",
+    "url": "/JojoEyeCatches/static/js/main.b6dfac40.chunk.js"
   },
   {
     "revision": "5f7d963f725f22a73bf4",
