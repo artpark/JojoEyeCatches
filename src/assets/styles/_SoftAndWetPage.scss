@@ -18,7 +18,16 @@
 
       margin-left: -40%;
     }
-
+    .collar {
+      position: absolute;
+      background-image: url('../images/JosukeMask.png');
+      background-size: cover;
+      top: 2px;
+      left: -40%;
+      width: 115%;
+      height: 100%;
+      filter: url('#turbulence');
+    }
     .soft-and-wet {
       position: relative;
       width: 100%;

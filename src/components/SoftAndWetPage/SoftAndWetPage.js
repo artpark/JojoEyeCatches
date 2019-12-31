@@ -33,7 +33,32 @@ const SoftAndWetPage = () => {
         className="container"
         style={{ transform: props.xy.interpolate(trans2) }}
       >
-        <img alt="Josuke" src={Josuke} className="josuke" />
+        <img alt="Josuke" src={Josuke} className="josuke"></img>
+        <div className="collar">
+          <svg>
+            <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+              <feTurbulence
+                id="collar-filter"
+                numOctaves="3"
+                seed="2"
+                baseFrequency="0.00 0.01"
+                type="fractalNoise"
+              ></feTurbulence>
+              <feDisplacementMap
+                scale="20"
+                in="SourceGraphic"
+              ></feDisplacementMap>
+            </filter>
+            <animate
+              xlinkHref="#collar-filter"
+              attributeName="baseFrequency"
+              dur="60s"
+              keyTimes="0;0.5;1"
+              values="0.0 0.0;0.0 0.03;0.0 0.0"
+              repeatCount="indefinite"
+            />
+          </svg>
+        </div>
       </animated.div>
     </div>
   )
