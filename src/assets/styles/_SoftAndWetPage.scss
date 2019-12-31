@@ -5,7 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  .image-container {
+
+  background-color: rgb(200, 200, 200);
+  .container {
     width: 20%;
     height: 0;
     padding-bottom: calc(55% * 9 / 16);
@@ -20,10 +22,19 @@
     .soft-and-wet {
       position: relative;
       width: 100%;
-      opacity: 50%;
+      opacity: 60%;
 
       margin-top: -33%;
       margin-left: 24%;
     }
+  }
+  .title {
+    position: absolute;
+    color: rgb(240, 240, 240);
+    letter-spacing: 0.18em;
+    // -webkit-writing-mode: vertical-rl;
+    // -moz-writing-mode: vertical-rl;
+    // -ms-writing-mode: vertical-rl;
+    // writing-mode: vertical-rl;
   }
 }
