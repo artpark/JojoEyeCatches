@@ -27,6 +27,31 @@ const SoftAndWetPage = () => {
         className="container"
         style={{ transform: props.xy.interpolate(trans1) }}
       >
+        <div className="saw-aura">
+          <svg>
+            <filter id="saw-turbulence" x="0" y="0" width="100%" height="100%">
+              <feTurbulence
+                id="saw-aura-filter"
+                numOctaves="3"
+                seed="2"
+                baseFrequency="0.02 0.00"
+                type="fractalNoise"
+              ></feTurbulence>
+              <feDisplacementMap
+                scale="25"
+                in="SourceGraphic"
+              ></feDisplacementMap>
+            </filter>
+            <animate
+              xlinkHref="#saw-aura-filter"
+              attributeName="baseFrequency"
+              dur="30s"
+              keyTimes="0;0.5;1"
+              values="0 0.01; 0 0.06; 0 0.01"
+              repeatCount="indefinite"
+            />
+          </svg>
+        </div>
         <img alt="SoftAndWet" src={SoftAndWet} className="soft-and-wet" />
       </animated.div>
       <animated.div
@@ -41,7 +66,7 @@ const SoftAndWetPage = () => {
                 id="collar-filter"
                 numOctaves="3"
                 seed="2"
-                baseFrequency="0.00 0.02"
+                baseFrequency="0.02 0.00"
                 type="fractalNoise"
               ></feTurbulence>
               <feDisplacementMap

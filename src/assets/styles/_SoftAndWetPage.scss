@@ -36,6 +36,17 @@
       margin-top: -33%;
       margin-left: 24%;
     }
+    .saw-aura {
+      position: absolute;
+      background-image: url('../images/SoftAndWet.png');
+      background-size: cover;
+      left: 24%;
+      top: -21%;
+      width: 100%;
+      height: 120%;
+      opacity: 30%;
+      filter: url('#saw-turbulence');
+    }
   }
   .title {
     position: absolute;
