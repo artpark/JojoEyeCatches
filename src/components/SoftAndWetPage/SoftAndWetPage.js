@@ -21,7 +21,7 @@ const SoftAndWetPage = () => {
       onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
     >
       <h1 className="title" lang="ja">
-        {'ソフト&ウェット'}
+        {'ソフト & ウェット'}
       </h1>
       <animated.div
         className="container"
