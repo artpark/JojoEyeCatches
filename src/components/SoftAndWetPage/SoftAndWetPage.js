@@ -52,9 +52,9 @@ const SoftAndWetPage = () => {
             <animate
               xlinkHref="#collar-filter"
               attributeName="baseFrequency"
-              dur="60s"
+              dur="10s"
               keyTimes="0;0.5;1"
-              values="0.0 0.0;0.0 0.03;0.0 0.0"
+              values="0 0.01; 0 0.02; 0 0.01"
               repeatCount="indefinite"
             />
           </svg>
