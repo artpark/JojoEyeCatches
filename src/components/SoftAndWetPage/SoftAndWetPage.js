@@ -41,7 +41,7 @@ const SoftAndWetPage = () => {
                 id="collar-filter"
                 numOctaves="3"
                 seed="2"
-                baseFrequency="0.00 0.01"
+                baseFrequency="0.00 0.02"
                 type="fractalNoise"
               ></feTurbulence>
               <feDisplacementMap
@@ -54,7 +54,7 @@ const SoftAndWetPage = () => {
               attributeName="baseFrequency"
               dur="10s"
               keyTimes="0;0.5;1"
-              values="0 0.01; 0 0.02; 0 0.01"
+              values="0 0.01; 0 0.03; 0 0.01"
               repeatCount="indefinite"
             />
           </svg>
